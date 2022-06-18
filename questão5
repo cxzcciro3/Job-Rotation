@@ -9,3 +9,20 @@ IMPORTANTE:
 	b) Evite usar funções prontas, como, por exemplo, reverse; 
 
   
+import java.util.Scanner;
+
+public class Reversor {
+	
+	public static void main(String[] args) {
+		 
+		String indice;
+		 
+		System.out.println("insira um nome:"); 
+		Scanner s = new Scanner(System.in);
+		indice = s.nextLine();
+		for(int i=indice.toCharArray().length-1;i>=0;i--)
+	         System.out.print(indice.toCharArray()[i] + "");
+	  
+	}	
+
+}
