@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Bott {
+	
+	public static void main(String[] args) {
+		//codigo em java 8
+		int indice = 0, soma = 0, cont1 = 0, cont2 = 1; 
+		
+		System.out.println("insira um numero:"); 
+		Scanner s = new Scanner(System.in);
+		indice = s.nextInt();
+	 	while(soma < indice) 
+		{ 
+
+	 		soma = cont1 + cont2;
+			cont1 = cont2;
+			cont2 = soma;
+
+		} 
+	 	if(indice == soma)
+	 		System.out.println(indice + " faz parte de Fibonate"); 
+	 	else
+	 		System.out.println(indice + " não faz parte de Fibonate"); 
+	}	
+
+}
