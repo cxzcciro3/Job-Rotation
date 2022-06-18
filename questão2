@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Bott {
+public class Questao {
 	
 	public static void main(String[] args) {
 		//codigo em java 8
